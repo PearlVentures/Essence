@@ -19,7 +19,7 @@ module.exports = function (grunt, options) {
     example: {
       files: {
         '<%= paths.js %>/essence.min.js': ['<%= paths.javascripts %>/example.js'],
-        'examples/project-template/dist/js/essence.min.js': ['<%= paths.javascripts %>/example.js']
+        'examples/project-template/dist/js/essence.js': ['<%= paths.javascripts %>/example.js']
       },
       options: {
         transform: [
