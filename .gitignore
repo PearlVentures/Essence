@@ -1,0 +1,7 @@
+*.log
+*.orig
+*.dmp
+*.7z
+*.map
+
+node_modules
