@@ -11,6 +11,13 @@ module.exports.tasks = {
       }
     },
 
+    example: {
+      files: {
+        'examples/project-template/dist/css/essence.css': '<%= paths.less %>/essence.less',
+        'examples/project-template/dist/css/icons.css': '<%= paths.less %>/icons.less'
+      }
+    },
+
     production: {
       options: {
         compress: true,

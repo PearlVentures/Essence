@@ -1,8 +1,7 @@
 'use strict';
 
 var React = require('react/addons'),
-    ComponentsList = require('./components/ComponentsList'),
-    ComponentsList = ComponentsList();
+    ComponentsList = require('./components/ComponentsList')();
 
 // Navigation Menu + Buttons
 React.render(
